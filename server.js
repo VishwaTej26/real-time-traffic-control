@@ -19,6 +19,7 @@ app.prepare().then(() => {
   });
 
   httpServer.listen(3000, () => {
-    console.log("Running on http://localhost:3000");
+    console.log("Running on the http://localhost:3000");
   });
 });
+
